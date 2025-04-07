@@ -2,12 +2,12 @@ public class TestAnimal {
     public static void main(String[] args) {
         AnimalRegistry registry = new AnimalRegistry();
 
-        Animal sheep1 = registry.createSheep("Dolly");
-        Animal cow1 = registry.createCow();
-        Animal horse1 = registry.createHorse();
+        Animal sheep = registry.createSheep("Lottie Bie");
+        Animal cow = registry.createCow();
+        Animal horse = registry.createHorse();
 
-        sheep1.makeSound();
-        cow1.makeSound();
-        horse1.makeSound();
+        sheep.makeSound();
+        cow.makeSound();
+        horse.makeSound();
     }
 }
